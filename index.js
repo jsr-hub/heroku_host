@@ -28,6 +28,12 @@ app.get("/customer",(req,res)=>{
     })
 });*/
 
+app.get("/",(req,res)=>{
+    
+   res.send("success connection")
+
+});
+
 // this rest point didn't used in front end but used to add new item in menu
 app.post("/admin",(req,res)=>{
 
