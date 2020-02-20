@@ -51,7 +51,7 @@ app.post("/admin",(req,res)=>{
 
 // insert new order to database from user
 
-app.post("/order",(req,res)=>{
+/*app.post("/order",(req,res)=>{
     const body = req.body;
 
     //console.log(body);
@@ -66,7 +66,7 @@ app.post("/order",(req,res)=>{
         res.end();   // end response 
     }) 
   
-})
+})*/
 
 // to listern on coresponding port 
 const PORT = process.env.PORT || 3000;
