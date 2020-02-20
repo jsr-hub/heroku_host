@@ -4,10 +4,10 @@
 Link to <a href="https://github.com/hariprasath2603/tilt-front" targrt="blank">Fronend</a>
 <h3>End Points</h3>
 <ul>
-<li>/menu - GET - To get list of menu items</li>
-<li>/order - GET - This is for chef to get list of orders placed by user</li>
-<li>/insert - POST - To inset new menu not used in front end</li>
-<li>/order - POST - To insert new order placed by client</li>
+
+<li>/customer - GET - retrieve</li>
+<li>/admin - POST - add and retrieve</li>
+
 </ul>
 
 <h2>CROS</h2>
