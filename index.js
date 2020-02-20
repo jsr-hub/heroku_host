@@ -8,7 +8,7 @@ const app = express();
 // using middle ware for parse and cross request
 app.use(bodyPars());
 // only allowing cros fom my site
-app.use( cors());
+app.use( cors({}));
 app.get("/customer",(req,res)=>{
     
     
