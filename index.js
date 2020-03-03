@@ -11,10 +11,12 @@ app.use(bodyPars());
 app.use( cors({}));
 app.get("/customer",(req,res)=>{
     
-    
+    let a;
     Menu.find({},(err,val)=>{ //request all data from menu collection
-        res.send(val)  
+        a= val  
     })
+    a={"brands":a}
+    res.send(a)
 
 });
 
